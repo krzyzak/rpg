@@ -1,0 +1,7 @@
+require "minitest/unit"
+require "minitest/autorun"
+require "active_model"
+require "active_model/validations"
+require "yapv/pesel"
+require "rpg"
+require "rpg/pesel"
