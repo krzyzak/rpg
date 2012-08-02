@@ -2,10 +2,10 @@
 require File.expand_path('../lib/rpg/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Michał Krzyżanowski"]
+  gem.authors       = ["Michal Krzyzanowski"]
   gem.email         = ["michal.krzyzanowski+github@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Real Pesel Generator}
+  gem.summary       = %q{Gem for generating valid PESEL numbers}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
