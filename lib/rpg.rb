@@ -1,5 +1,4 @@
 require "rpg/version"
-
+require "rpg/pesel"
 module Rpg
-  # Your code goes here...
 end
