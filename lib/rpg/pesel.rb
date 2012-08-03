@@ -2,7 +2,11 @@ module Rpg
   class Pesel
     def initialize(options = {})
       @date = options[:date].is_a?(Date) ? options[:date] : Date.parse(options[:date])
-      @gender = options[:gender] || [:male, :female].sample
+      if [:male, :female].include?(options[:gender])
+        @gender = options[:gender]
+      else
+        @gender = [:male, :female].sample
+      end
     end
 
     def generate
